@@ -50,6 +50,7 @@ listing:
 
 <div class="button-container">
   <a href="https://forms.office.com/pages/responsepage.aspx?id=qO3qvR3IzkWGPlIypTW3y2wmHvEELqdHoIHnqYLBNixUOVRaVkM0MVZLUFRUUEtCV0JDRkpOOE4xNC4u&route=shorturl" class="btn btn-primary btn-lg mb-0 rounded-pill" role="button" style="margin-right:10px" target="_blank">Submit Abstract</a>
+  <a href="https://forms.cloud.microsoft/e/b3JTy754qh?origin=lprLink" class="btn btn-primary btn-lg mb-0 rounded-pill" role="button" style="margin-right:10px" target="_blank">Register</a>
   <share-button>
   <button type="button" class="btn btn-primary btn-lg mb-0 rounded-pill"><i class="fa-regular fa-share-from-square"></i></button>
   </share-button>
