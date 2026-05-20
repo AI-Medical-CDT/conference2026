@@ -2092,6 +2092,8 @@ Bubble: the box that expands below an expandable, containing a Nutshell Section
     .nutshell-bubble-overflow-section{
         padding: 0 1em;
         padding-bottom: 0.5em;
+        font-size: small;
+        font-weight: 350;
         overflow: hidden; /* to capture full height, including <p>'s margins */
     }
     .nutshell-bubble-overflow-section > div{
