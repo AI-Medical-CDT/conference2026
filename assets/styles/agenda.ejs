@@ -4,7 +4,7 @@
     <div class="event-entry">
         <span class="event-time"><%= event.time %></span>
         <div class="body">
-            <p class="event-title"><%= event.title %></p>
+            <p class="event-title"><%= event.title %><span class="event-subtitle"><i><%= event.subtitle %></i></span></p>
             <% if (event.abstract) { %>
             <p><a href="<%= event.abstract %>" class="event-description">:<%= event.description %></a></p>
             <% } else { %>

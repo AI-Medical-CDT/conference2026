@@ -117,7 +117,9 @@ If your abstract is accepted, you will:
 # Agenda {#sec-agenda}
 <hr style="height:3pt; visibility:hidden;" />
 
+:::{.column-body-outset-right}
 :::{#agenda}
+:::
 :::
 
 # Venue {#sec-venue}

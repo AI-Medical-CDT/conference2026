@@ -141,9 +141,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-time','listing-title','listing-description','listing-logo',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-time','listing-title','listing-description','listing-subtitle','listing-logo',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-time","listing-title","listing-description","listing-logo"],
+      searchColumns: ["listing-time","listing-title","listing-description","listing-subtitle","listing-logo"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -381,10 +381,10 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
-<b>
+<b class="page-columns page-full">
 
 
 <div class="button-container">
@@ -502,23 +502,24 @@ No matching items
 </div>
 </div>
 </section>
-<section id="sec-agenda" class="level1">
+<section id="sec-agenda" class="level1 page-columns page-full">
 <h1>Agenda</h1>
 <hr style="height:3pt; visibility:hidden;">
+<div class="column-body-outset-right">
 <div id="listing-agenda" class="quarto-listing quarto-listing-container-custom">
 <div class="events">
     
     <div class="event-entry">
         <span class="event-time">09:00-09:30</span>
         <div class="body">
-            <p class="event-title">Registration and networking</p>
+            <p class="event-title">Registration<span class="event-subtitle"><i></i></span></p>
             
             <p class="event-description">Sign in at the registration desk</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/reg.png" alt="Registration and networking" title="Registration and networking">
+            <img src="assets/imgs/icons/reg.png" alt="Registration" title="Registration">
             
         </div>
     </div>
@@ -526,7 +527,7 @@ No matching items
     <div class="event-entry">
         <span class="event-time">09:30-09:35</span>
         <div class="body">
-            <p class="event-title">Welcome</p>
+            <p class="event-title">Welcome<span class="event-subtitle"><i></i></span></p>
             
             <p class="event-description">A warm welcome and an introduction to the event from Professor Luke Windsor, Dean of the Leeds Doctoral College.</p>
             
@@ -539,54 +540,54 @@ No matching items
     </div>
     
     <div class="event-entry">
-        <span class="event-time">09:35-11:00</span>
+        <span class="event-time">09:35-10:30</span>
         <div class="body">
-            <p class="event-title">AI for Health PGR community – Part 1</p>
+            <p class="event-title">AI for Health PGR Community<span class="event-subtitle"><i>: Part 1 (Oral Presentations)</i></span></p>
             
             <p class="event-description">A collection of short presentations by students showcasing their research.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/spotlight.png" alt="AI for Health PGR community – Part 1" title="AI for Health PGR community – Part 1">
+            <img src="assets/imgs/icons/spotlight.png" alt="AI for Health PGR Community" title="AI for Health PGR Community">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">11:00-11:30</span>
+        <span class="event-time">10:30-11:00</span>
         <div class="body">
-            <p class="event-title">PGR posters and networking with coffee/tea</p>
+            <p class="event-title">Poster Session with Coffee/Tea<span class="event-subtitle"><i></i></span></p>
             
             <p class="event-description">Time to unleash your inner art critic for poster presentations from students.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/poster.png" alt="PGR posters and networking with coffee/tea" title="PGR posters and networking with coffee/tea">
+            <img src="assets/imgs/icons/poster.png" alt="Poster Session with Coffee/Tea" title="Poster Session with Coffee/Tea">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">11:30-12:45</span>
+        <span class="event-time">11:00-12:15</span>
         <div class="body">
-            <p class="event-title">What is the safety case for AI in healthcare</p>
+            <p class="event-title">Keynote introduction (20 mins)<span class="event-subtitle"><i>: “What is the Safety Case for AI in Healthcare?”</i></span></p>
             
-            <p class="event-description">A discussion on building responsible and trustworthy AI</p>
+            <p class="event-description">Followed by roundtable discussion on building responsible and trustworthy AI</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/panel.png" alt="What is the safety case for AI in healthcare" title="What is the safety case for AI in healthcare">
+            <img src="assets/imgs/icons/panel.png" alt="Keynote introduction (20 mins)" title="Keynote introduction (20 mins)">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">12:45-13:45</span>
+        <span class="event-time">12:15-13:30</span>
         <div class="body">
-            <p class="event-title">Networking Lunch</p>
+            <p class="event-title">Networking Lunch<span class="event-subtitle"><i></i></span></p>
             
             <p class="event-description">The heart and soul of any conference is the food and networking.</p>
             
@@ -599,69 +600,69 @@ No matching items
     </div>
     
     <div class="event-entry">
-        <span class="event-time">13:45-15:00</span>
+        <span class="event-time">13:30-14:25</span>
         <div class="body">
-            <p class="event-title">AI for Health PGR community – Part 2</p>
+            <p class="event-title">AI for Health PGR Community<span class="event-subtitle"><i>: Part 2 (Oral Presentations)</i></span></p>
             
             <p class="event-description">A collection of short presentations by students showcasing their research.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/spotlight.png" alt="AI for Health PGR community – Part 2" title="AI for Health PGR community – Part 2">
+            <img src="assets/imgs/icons/spotlight.png" alt="AI for Health PGR Community" title="AI for Health PGR Community">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">15:00-15:30</span>
+        <span class="event-time">14:25-15:00</span>
         <div class="body">
-            <p class="event-title">PGR posters and networking with coffee/tea</p>
+            <p class="event-title">Poster Session with Coffee/Tea<span class="event-subtitle"><i></i></span></p>
             
             <p class="event-description">Time to unleash your inner art critic for poster presentations from students.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/poster.png" alt="PGR posters and networking with coffee/tea" title="PGR posters and networking with coffee/tea">
+            <img src="assets/imgs/icons/poster.png" alt="Poster Session with Coffee/Tea" title="Poster Session with Coffee/Tea">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">15:30-16:45</span>
+        <span class="event-time">15:00-16:15</span>
         <div class="body">
-            <p class="event-title">AI Device Regulation</p>
+            <p class="event-title">Keynote introduction (20 mins)<span class="event-subtitle"><i>: “AI Device Regulation”</i></span></p>
             
-            <p class="event-description">A discussion on regulatory guidelines for developing medical AI</p>
+            <p class="event-description">Followed by roundtable discussion on regulatory guidelines for medical AI</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/panel.png" alt="AI Device Regulation" title="AI Device Regulation">
+            <img src="assets/imgs/icons/panel.png" alt="Keynote introduction (20 mins)" title="Keynote introduction (20 mins)">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">16:45-16:50</span>
+        <span class="event-time">16:15-16:30</span>
         <div class="body">
-            <p class="event-title">Closing Remarks</p>
+            <p class="event-title">Prizes and Closing Remarks<span class="event-subtitle"><i></i></span></p>
             
             <p class="event-description">Concluding remarks and thanks from our CDT director.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/keynote.png" alt="Closing Remarks" title="Closing Remarks">
+            <img src="assets/imgs/icons/keynote.png" alt="Prizes and Closing Remarks" title="Prizes and Closing Remarks">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">16:45 onwards</span>
+        <span class="event-time">16:45-17:30</span>
         <div class="body">
-            <p class="event-title">Drinks Reception</p>
+            <p class="event-title">Drinks Reception<span class="event-subtitle"><i></i></span></p>
             
             <p class="event-description">The heart and soul of any conference is the food and networking.</p>
             
@@ -678,14 +679,15 @@ No matching items
 No matching items
 </div>
 </div>
+</div>
 </section>
 <section id="sec-venue" class="level1">
 <h1>Venue</h1>
 <hr style="height:1.5pt; visibility:hidden;">
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-ecc6bcfb5e32db526d09" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-ecc6bcfb5e32db526d09">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[53.805251,-1.550028],15,[]],"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addEasyButton","args":[{"icon":"ion-arrow-shrink","title":"Reset View","onClick":"function(btn, map){ map.setView(map._initialCenter, map._initialZoom); }","position":"topleft"}]},{"method":"addPopups","args":[53.805251,-1.550028,"<a href='https://www.google.co.uk/maps/dir//Nexus+-+University+of+Leeds,+Discovery+Way,+Leeds+LS2+3AA/@53.8052821,-1.5502785,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x48795c028b513609:0x6014fd660699c8ee!2m2!1d-1.5502785!2d53.8052821!3e0' target='_blank' style='font-weight:bold'>Nexus<\/a><br/>Discovery Way<br/>University of Leeds<br/>Leeds, LS2 3AA",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":false,"closeOnClick":false,"className":"","autoClose":false}]}],"limits":{"lat":[53.805251,53.805251],"lng":[-1.550028,-1.550028]}},"evals":["calls.1.args.0.onClick"],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\nfunction(el, x){\n  var map = this;\n  map.whenReady(function(){\n    map._initialCenter = map.getCenter();\n    map._initialZoom = map.getZoom();\n  });\n}).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-2e9017fc7e0486564954" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-2e9017fc7e0486564954">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[53.805251,-1.550028],15,[]],"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addEasyButton","args":[{"icon":"ion-arrow-shrink","title":"Reset View","onClick":"function(btn, map){ map.setView(map._initialCenter, map._initialZoom); }","position":"topleft"}]},{"method":"addPopups","args":[53.805251,-1.550028,"<a href='https://www.google.co.uk/maps/dir//Nexus+-+University+of+Leeds,+Discovery+Way,+Leeds+LS2+3AA/@53.8052821,-1.5502785,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x48795c028b513609:0x6014fd660699c8ee!2m2!1d-1.5502785!2d53.8052821!3e0' target='_blank' style='font-weight:bold'>Nexus<\/a><br/>Discovery Way<br/>University of Leeds<br/>Leeds, LS2 3AA",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":false,"closeOnClick":false,"className":"","autoClose":false}]}],"limits":{"lat":[53.805251,53.805251],"lng":[-1.550028,-1.550028]}},"evals":["calls.1.args.0.onClick"],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\nfunction(el, x){\n  var map = this;\n  map.whenReady(function(){\n    map._initialCenter = map.getCenter();\n    map._initialZoom = map.getZoom();\n  });\n}).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
 </div>
 </div>
 </section>

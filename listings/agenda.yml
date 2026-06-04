@@ -1,54 +1,65 @@
 - time: "09:00-09:30"
-  title: "Registration and networking"
+  title: "Registration"
   description: "Sign in at the registration desk"
+  subtitle: ""
   logo: assets/imgs/icons/reg.png
 
 - time: "09:30-09:35"
   title: "Welcome"
+  subtitle: ""
   description: "A warm welcome and an introduction to the event from Professor Luke Windsor, Dean of the Leeds Doctoral College."
   logo: assets/imgs/icons/keynote.png
 
-- time: "09:35-11:00"
-  title: "AI for Health PGR community – Part 1"
+- time: "09:35-10:30"
+  title: "AI for Health PGR Community"
+  subtitle: ": Part 1 (Oral Presentations)"
   description: "A collection of short presentations by students showcasing their research."
   logo: assets/imgs/icons/spotlight.png
 
-- time: "11:00-11:30"
-  title: "PGR posters and networking with coffee/tea"
+- time: "10:30-11:00"
+  title: "Poster Session with Coffee/Tea"
+  subtitle: ""
   description: "Time to unleash your inner art critic for poster presentations from students."
   logo: assets/imgs/icons/poster.png 
 
-- time: "11:30-12:45"
-  title: "What is the safety case for AI in healthcare"
-  description: "A discussion on building responsible and trustworthy AI"
+- time: "11:00-12:15"
+  title: "Keynote introduction (20 mins)"
+  subtitle: ": “What is the Safety Case for AI in Healthcare?”"
+  description: "Followed by roundtable discussion on building responsible and trustworthy AI"
   logo: assets/imgs/icons/panel.png
 
-- time: "12:45-13:45"
+- time: "12:15-13:30"
   title: "Networking Lunch"
+  subtitle: ""
   description: "The heart and soul of any conference is the food and networking."
   logo: assets/imgs/icons/food.png
 
-- time: "13:45-15:00"
-  title: "AI for Health PGR community – Part 2"
+- time: "13:30-14:25"
+  title: "AI for Health PGR Community"
+  subtitle: ": Part 2 (Oral Presentations)"
   description: "A collection of short presentations by students showcasing their research."
   logo: assets/imgs/icons/spotlight.png
 
-- time: "15:00-15:30"
-  title: "PGR posters and networking with coffee/tea"
+- time: "14:25-15:00"
+  title: "Poster Session with Coffee/Tea"
+  subtitle: ""
   description: "Time to unleash your inner art critic for poster presentations from students."
   logo: assets/imgs/icons/poster.png 
 
-- time: "15:30-16:45"
-  title: "AI Device Regulation"
-  description: "A discussion on regulatory guidelines for developing medical AI"
+- time: "15:00-16:15"
+  title: "Keynote introduction (20 mins)"
+  subtitle: ": “AI Device Regulation”"
+  description: "Followed by roundtable discussion on regulatory guidelines for medical AI"
   logo: assets/imgs/icons/panel.png
 
-- time: "16:45-16:50"
-  title: "Closing Remarks"
+- time: "16:15-16:30"
+  title: "Prizes and Closing Remarks"
+  subtitle: ""
   description: "Concluding remarks and thanks from our CDT director."
   logo: assets/imgs/icons/keynote.png
 
-- time: "16:45 onwards"
+- time: "16:45-17:30"
   title: "Drinks Reception"
+  subtitle: ""
   description: "The heart and soul of any conference is the food and networking."
   logo: assets/imgs/icons/food.png
